@@ -2,17 +2,6 @@
 
 A Review Management System built with Node.js, Express, and Google Generative AI for automated responses. This project helps businesses manage customer reviews, analyze sentiments, and generate AI-based responses for reviews.
 
-## Table of Contents
-
-* Tech Stack
-* Features
-* Installation
-* Run the Project
-* Usage
-* How it Works
-* Screenshots
-* License
-
 ## Tech Stack
 
 This project uses the following technologies:
@@ -76,7 +65,7 @@ This project uses the following technologies:
    Run the following command to start the backend server:
 
 ```
-   npm start
+   node server.cjs
 ```
 
    This will start the application on `http://localhost:3000`.
