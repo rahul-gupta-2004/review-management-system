@@ -77,7 +77,7 @@ This project uses the following technologies:
 ## Usage
 
 * **Login** : Use the "Login with Google" button on the homepage (`index.html`) to authenticate with Google. Only authorized users can access the review management system.
-* **View Reviews** : Once logged in, you can view the reviews in the system. If no response exists for a review, you can reply using predefined templates ("Thank you", "Sorry") or use the "AI Generate Response" button for an AI-generated reply.
+* **View Reviews** : Once logged in, you can view the reviews in the system. If no response exists for a review, you can reply using predefined templates - "Thank you", "Sorry" or use the "AI Generate Response" button for an AI-generated reply.
 * **Analytics** : You can also view review statistics such as the number of reviews per month, the sentiment breakdown by month, and more.
 
 ## How it Works
