@@ -6,13 +6,14 @@ A Review Management System built with Node.js, Express, and Google Generative AI
 
 This project uses the following technologies:
 
-* **Frontend** :
+**Frontend** :
 * HTML5
 * CSS3 (Styled using custom styles)
 * JavaScript
 * Chart.js for data visualization
 * Font Awesome for icons
-* **Backend** :
+
+**Backend** :
 * Node.js
 * Express.js
 * Passport.js for Google OAuth authentication
