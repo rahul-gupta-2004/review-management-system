@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Font Awesome CDN for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <!-- Chart.js for analytics -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Welcome to the Review Management System</h1>
+
+        <!-- Container to display reviews -->
+        <div id="reviews-container"></div>
+
+        <!-- Container to display charts and analytics -->
+        <div class="analytics-section">
+            <h2 class="analytics-heading">Review Analytics</h2>
+
+            <div class="chart-container">
+                <h3>Number of Reviews Per Month</h3>
+                <canvas class="chart" id="reviews-per-month"></canvas>
+            </div>
+
+            <div class="chart-container">
+                <h3>Number of Reviews Per Year</h3>
+                <canvas class="chart" id="reviews-per-year"></canvas>
+            </div>
+
+            <div class="chart-container">
+                <h3>Sentiment Analysis by Month</h3>
+                <canvas class="chart" id="sentiment-per-month"></canvas>
+            </div>
+
+            <div class="chart-container">
+                <h3>Sentiment Analysis by Year</h3>
+                <canvas class="chart" id="sentiment-per-year"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

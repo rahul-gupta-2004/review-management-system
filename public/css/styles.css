@@ -1,0 +1,202 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f7f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;  /* Dark Blue for headings */
+    text-align: center;
+}
+
+/* Header Styles */
+h1 {
+    font-size: 2.5rem;
+    margin-top: 50px;
+}
+
+/* Buttons */
+.btn {
+    background-color: #3498db;  /* Restaverse-like blue */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #2980b9;  /* Darker blue on hover */
+    transform: scale(1.05);
+}
+
+/* Review Section */
+.review-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+    transition: transform 0.2s ease;
+}
+
+.review-card:hover {
+    transform: translateY(-5px);  /* Smooth hover effect */
+}
+
+.review-card h3 {
+    font-size: 1.5rem;
+    color: #2c3e50;
+}
+
+.review-card p {
+    font-size: 1rem;
+    color: #7f8c8d;  /* Light grey for paragraph text */
+}
+
+.review-card .positive {
+    color: #27ae60; /* Green for positive */
+}
+
+.review-card .negative {
+    color: #e74c3c; /* Red for negative */
+}
+
+.review-card .neutral {
+    color: #f39c12; /* Orange for neutral */
+}
+
+.review-card input.reply-input {
+    width: 75%;
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.review-card button.reply-btn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.review-card button.reply-btn:hover {
+    background-color: #2980b9;
+}
+
+.template-btn {
+    background-color: #f39c12; /* Gold for template buttons */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.template-btn:hover {
+    background-color: #e67e22;
+}
+
+/* Analytics Section */
+.analytics-section {
+    background-color: #fff;
+    padding: 30px;
+    margin-top: 50px;
+    width: 80%;
+    max-width: 1200px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.analytics-heading {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+.chart-container {
+    background-color: #ecf0f1;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+}
+
+.chart-container h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.chart {
+    width: 100%;
+    height: 400px;
+}
+
+/* Centering all content */
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* For the Error Page */
+.error-page {
+    text-align: center;
+    margin-top: 50px;
+    color: #e74c3c; /* Red color to indicate error */
+}
+
+.error-page h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #e74c3c; /* Red color for error message */
+}
+
+.error-page p {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.error-page .btn {
+    background-color: #3498db;  /* Same Restaverse-like blue */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.error-page .btn:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+    transform: scale(1.05);
+}
+
+/* Centering all content for error page */
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
