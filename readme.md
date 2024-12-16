@@ -82,11 +82,13 @@ This project uses the following technologies:
 
 ## How it Works
 
-* **Frontend** :
+**Frontend** :
 * The frontend is built using HTML, CSS, and JavaScript.
 * Reviews are fetched using a GET request to `/api/reviews` from the server.
 * Admins can reply to reviews by using a manual input or by clicking predefined response buttons.
-* The AI response is generated through a backend route `/generate-ai-response`, which calls the Google Generative AI API using a Python script.**Backend** :
+* The AI response is generated through a backend route `/generate-ai-response`, which calls the Google Generative AI API using a Python script.
+
+**Backend** :
 * The backend is built with Node.js and Express.js.
 * It includes API routes for managing reviews and generating responses using AI.
 * Authentication is handled using Passport.js with Google OAuth.
